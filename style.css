@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: green;
+}
+
+#menu {
+	display: flex;
+	height: 10vh;
+}
+
+#menu .exo {
+	background-color: orange;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	padding: 5px;
+	margin: 5px;
+	width: calc(100% * (1/10) - 10px);
+}
+
+#conteneur div{
+	display: none;
+}
+
+#conteneur
+{
+	height: 90vh;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#conteneur .exo {
+	height: 98%;
+	width: 98%;
+}
+
+.one {
+	background-color: blue;
+}
+
+.two {
+	background-color: grey;
+}
+
+.three {
+	background-color: purple;
+}
+
+.display {
+	display: flex !important;
+}
